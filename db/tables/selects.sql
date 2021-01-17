@@ -1,6 +1,7 @@
 /****** Script for SelectTopNRows command from SSMS  ******/
 SELECT TOP (1000) [parameterTypeID]
       ,[name]
+      ,[disabled]
   FROM [searchfight].[dbo].[parameterTypes]
   
   
@@ -16,6 +17,7 @@ SELECT TOP (1000) [searchEngineID]
       ,[replaceOldValue]
       ,[replaceNewValue]
       ,[patternRegexpExtract]
+      ,[disabled]
   FROM [searchfight].[dbo].[searchEngines]
   
   

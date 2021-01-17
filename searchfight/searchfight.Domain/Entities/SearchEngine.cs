@@ -17,5 +17,6 @@ namespace searchfight.Domain.Entities
         public string replaceOldValue { get; set; }
         public string replaceNewValue { get; set; }
         public string patternRegexpExtract { get; set; }
+        public bool disabled { get; set; }
     }
 }

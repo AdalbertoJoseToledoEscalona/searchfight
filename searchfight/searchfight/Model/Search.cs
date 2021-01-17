@@ -24,11 +24,11 @@ namespace searchfight.Model
 
         public long Execute(string arg, IQueryable<Parameter> parameters, IQueryable<ParameterType> parameterTypes)
         {
-            string responseString = "";
+            string responseString = ""; 
 
             string httpUrl = searchEngine.httpUrl;
 
-            int parameterTypeID = parameterTypes.Where(y => y.name.Equals("uri")).Select(y => y.parameterTypeID).FirstOrDefault();
+            int parameterTypeID = parameterTypes.Where(y => y.name.Equals("uri") && y.disabled == false).Select(y => y.parameterTypeID).FirstOrDefault();
             var uris = parameters.Where(x => x.searchEngineID == searchEngine.searchEngineID && x.parameterTypeID == parameterTypeID && x.disabled == false);
             foreach (var item in uris)
             {
@@ -36,7 +36,7 @@ namespace searchfight.Model
                 httpUrl.Replace("{" + item.name + "}", item.value);
             }
 
-            parameterTypeID = parameterTypes.Where(y => y.name.Equals("query")).Select(y => y.parameterTypeID).FirstOrDefault();
+            parameterTypeID = parameterTypes.Where(y => y.name.Equals("query") && y.disabled == false).Select(y => y.parameterTypeID).FirstOrDefault();
             var queries = parameters.Where(x => x.searchEngineID == searchEngine.searchEngineID && x.parameterTypeID == parameterTypeID && x.disabled == false);
             foreach (var item in queries)
             {
@@ -54,7 +54,7 @@ namespace searchfight.Model
             var request = (HttpWebRequest)WebRequest.Create(httpUrl);
             request.Method = searchEngine.httpMethod;
 
-            parameterTypeID = parameterTypes.Where(y => y.name.Equals("header")).Select(y => y.parameterTypeID).FirstOrDefault();
+            parameterTypeID = parameterTypes.Where(y => y.name.Equals("header") && y.disabled == false).Select(y => y.parameterTypeID).FirstOrDefault();
             var headers = parameters.Where(x => x.searchEngineID == searchEngine.searchEngineID && x.parameterTypeID == parameterTypeID && x.disabled == false);
             foreach (var item in headers)
             {

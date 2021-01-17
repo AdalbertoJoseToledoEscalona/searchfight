@@ -8,5 +8,6 @@ namespace searchfight.Domain.Entities
     {
         public int parameterTypeID { get; set; }
         public string name { get; set; }
+        public bool disabled { get; set; }
     }
 }

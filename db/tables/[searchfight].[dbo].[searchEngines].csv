@@ -1,3 +1,3 @@
-﻿searchEngineID,name,description,httpMethod,httpUrl,httpBody,beginSection,endSection,replaceOldValue,replaceNewValue,patternRegexpExtract
-1,Google,Google,GET,https://www.google.com/search,NULL,"<div id=""result-stats"">",</div>,",",,"\d+(,\d+)*"
-2,BING,Microsoft's Search Engine,GET,https://www.bing.com/search,NULL,"<span class=""sb_count"">",</span>,.,,\d+(.\d+)*
+﻿searchEngineID,name,description,httpMethod,httpUrl,httpBody,beginSection,endSection,replaceOldValue,replaceNewValue,patternRegexpExtract,disabled
+1,Google,Google,GET,https://www.google.com/search,NULL,"<div id=""result-stats"">",</div>,",",,"\d+(,\d+)*",0
+2,BING,Microsoft's Search Engine,GET,https://www.bing.com/search,NULL,"<span class=""sb_count"">",</span>,.,,\d+(.\d+)*,0

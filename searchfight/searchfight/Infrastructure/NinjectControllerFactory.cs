@@ -30,16 +30,16 @@ namespace searchfight.Infrastructure
 
             //Mock<ISearchEngineRepository> mockSearchEngine = new Mock<ISearchEngineRepository>();
             //mockSearchEngine.Setup(m => m.SearchEngines).Returns(new List<SearchEngine> {
-            //    new SearchEngine { searchEngineID = 1, name = "Google", description = "Google", httpMethod = "GET", httpUrl = "https://www.google.com/search", httpBody = null, beginSection = "<div id=\"result-stats\">", endSection = "</div>", replaceOldValue = ",", replaceNewValue = "", patternRegexpExtract = @"\d+(,\d+)*" },
-            //    new SearchEngine { searchEngineID = 2, name = "BING", description = "Microsoft's Search Engine", httpMethod = "GET", httpUrl = "https://www.bing.com/search", httpBody = null, beginSection = "<span class=\"sb_count\">", endSection = "</span>", replaceOldValue = ".", replaceNewValue = "", patternRegexpExtract = @"\d+(.\d+)*" }
+            //    new SearchEngine { searchEngineID = 1, name = "Google", description = "Google", httpMethod = "GET", httpUrl = "https://www.google.com/search", httpBody = null, beginSection = "<div id=\"result-stats\">", endSection = "</div>", replaceOldValue = ",", replaceNewValue = "", patternRegexpExtract = @"\d+(,\d+)*", disabled = false },
+            //    new SearchEngine { searchEngineID = 2, name = "BING", description = "Microsoft's Search Engine", httpMethod = "GET", httpUrl = "https://www.bing.com/search", httpBody = null, beginSection = "<span class=\"sb_count\">", endSection = "</span>", replaceOldValue = ".", replaceNewValue = "", patternRegexpExtract = @"\d+(.\d+)*", disabled = false }
             //}.AsQueryable());
             //ninjectKernel.Bind<ISearchEngineRepository>().ToConstant(mockSearchEngine.Object);
 
             //Mock<IParameterTypeRepository> mockParameterType = new Mock<IParameterTypeRepository>();
             //mockParameterType.Setup(m => m.ParameterTypes).Returns(new List<ParameterType> {
-            //    new ParameterType { parameterTypeID = 1, name = "uri" },
-            //    new ParameterType { parameterTypeID = 2, name = "query" },
-            //    new ParameterType { parameterTypeID = 3, name = "header" }
+            //    new ParameterType { parameterTypeID = 1, name = "uri", disabled = false },
+            //    new ParameterType { parameterTypeID = 2, name = "query", disabled = false },
+            //    new ParameterType { parameterTypeID = 3, name = "header", disabled = false }
             //}.AsQueryable());
             //ninjectKernel.Bind<IParameterTypeRepository>().ToConstant(mockParameterType.Object);
 

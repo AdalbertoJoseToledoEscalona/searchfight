@@ -35,11 +35,11 @@ namespace searchfight
 
                     Console.Write("\n" + args[i] + ": ");
 
-                    foreach (var item in repositorySearchEngine.SearchEngines)
+                    foreach (var item in repositorySearchEngine.SearchEngines.Where(x => x.disabled == false))
                     {
                         ISearch search = ninject.ninjectKernel.Get<ISearch>(new Ninject.Parameters.ConstructorArgument("searchEngine", item));
 
-                        search.Execute(args[i], repositoryParameter.Parameters.Where(x => x.searchEngineID == item.searchEngineID), repositoryParameterType.ParameterTypes);
+                        search.Execute(args[i], repositoryParameter.Parameters.Where(x => x.searchEngineID == item.searchEngineID && x.disabled == false), repositoryParameterType.ParameterTypes.Where(x =>  x.disabled == false));
 
                         Console.Write(item.name + ": " + search.results + " ");
 

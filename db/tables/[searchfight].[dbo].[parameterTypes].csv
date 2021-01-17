@@ -1,4 +1,4 @@
-﻿parameterTypeID,name
-1,uri
-2,query
-3,header
+﻿parameterTypeID,name,disabled
+1,uri,0
+2,query,0
+3,header,0
