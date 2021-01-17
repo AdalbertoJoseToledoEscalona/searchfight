@@ -1,0 +1,38 @@
+﻿parameterID,searchEngineID,parameterTypeID,name,value,disabled
+1,1,2,source,hp,0
+2,1,2,ei,g2kDYN2RFIS25gLP950I,0
+3,1,2,q,NULL,0
+4,1,2,oq,NULL,0
+5,1,2,gs_lcp,CgZwc3ktYWIQAzIFCAAQsQMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6AgguUKcLWMsPYP0TaAFwAHgAgAGaBYgB_Q-SAQU0LTMuMZgBAKABAaoBB2d3cy13aXqwAQA,0
+6,1,2,sclient,psy-ab,0
+7,1,2,ved,0ahUKEwid34CGwaHuAhUEm1kKHc97BwEQ4dUDCAY,0
+8,1,2,uact,5,0
+9,1,3,Accept,"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",0
+10,1,3,Accept-Encoding,"gzip, deflate, br",1
+11,1,3,Accept-Language,"en-US,en;q=0.5",0
+12,1,3,Cache-Control,max-age=0,0
+13,1,3,Connection,keep-alive,0
+14,1,3,Cookie,CGIC=Ikp0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS93ZWJwLCovKjtxPTAuOA; 1P_JAR=2021-01-16-22; NID=207=Uuqh8TU0afIcu_y14-uSsO9kJsjvmRdReuZrqffJzI6EzRTu6Y5d-vC4X9cHtOqxj0q1wCxn1jw5_fumS_S2RITHUTJq0aBUMAkjCVTZUwYiIzEWMrIMk6dpMApS7GHchSuAUftlIDTgUK-p-XJqYYtydpNFbI9H7OqLeKeVfLI; ANID=AHWqTUkTHwyEZ1L0dQ3MzWwFXxtx2lqBJKFlBz6zRPzqVMwrhawkiwjJKHKTy29V; OTZ=5802761_76_76__76_; DV=s2pDxgLCIpEqcJwiBMaOV24J8U_VcNdcOI1FeSUqQgMAAAA,0
+15,1,3,Host,www.google.com,0
+16,1,3,Upgrade-Insecure-Requests,1,0
+17,1,3,User-Agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0,0
+18,2,2,q,NULL,0
+19,2,2,form,QBLH,0
+20,2,2,sp,-1,0
+21,2,2,pq,.ne,0
+22,2,2,sc,9-3,0
+23,2,2,qs,n,0
+24,2,2,sk,,0
+25,2,2,cvid,025DE79650A84D9DB46D65C6AD58D07E,0
+26,2,3,accept,"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",0
+27,2,3,accept-encoding,"gzip, deflate, br",1
+28,2,3,accept-language,"en-US,en;q=0.9",0
+29,2,3,cache-control,max-age=0,0
+30,2,3,cookie,SRCHUID=V=2&GUID=A7F5A4F33416451D84B84DEAD4ABAC1F&dmnchg=1; SRCHD=AF=NOFORM; MUID=2899DADFBC3F67350889D549B83F61C5; _RwBf=mtu=0&g=0&cid=&o=2&p=&c=&t=0&s=0001-01-01T00:00:00.0000000+00:00&ts=2021-01-10T03:21:58.5434423+00:00; MUIDB=2899DADFBC3F67350889D549B83F61C5; ABDEF=V=13&ABDV=11&MRNB=1610249308087&MRB=0; ANON=A=195FF7276D9D73B11DF76DB5FFFFFFFF; WLS=C=a8a161d223657b9e&N=Adalberto+Jos%c3%a9; _SS=SID=065F82716F506C1922428DB06EF76D4F; _U=1efcFXbPATdrqL1Lv-HegTGo758QWYVmFHfAfaSZcC2jdR2vS1gBQ_LddG-HXdXRS0i4dngyH_bn-epkjU6YL-Grlb7kysilp8991G6F-gqeEQ4babudrnbkEfZGhX_D-kUcJNC12QaBYlA4FyxdSJZhFSHZh1VYTqhdHV7OR5Ft_zC1w-0GLand3eiErHlkHBAxB3ayAv_W86MQpGP8q5g; _HPVN=CS=eyJQbiI6eyJDbiI6MiwiU3QiOjAsIlFzIjowLCJQcm9kIjoiUCJ9LCJTYyI6eyJDbiI6MiwiU3QiOjAsIlFzIjowLCJQcm9kIjoiSCJ9LCJReiI6eyJDbiI6MiwiU3QiOjAsIlFzIjowLCJQcm9kIjoiVCJ9LCJBcCI6dHJ1ZSwiTXV0ZSI6dHJ1ZSwiTGFkIjoiMjAyMS0wMS0xNlQwMDowMDowMFoiLCJJb3RkIjowLCJEZnQiOm51bGwsIk12cyI6MCwiRmx0IjowLCJJbXAiOjR9; _EDGE_S=SID=065F82716F506C1922428DB06EF76D4F&mkt=es-pe; SRCHUSR=DOB=20201204&T=1610836479000; ipv6=hit=1610840084704&t=4; SRCHHPGUSR=LUT=1610248146793&BRW=W&BRH=S&CW=1536&CH=454&DPR=1.25&UTC=-300&DM=0&HV=1610836491&WTS=63745844987,0
+31,2,3,referer,https://www.bing.com/,0
+32,2,3,sec-fetch-dest,document,0
+33,2,3,sec-fetch-mode,navigate,0
+34,2,3,sec-fetch-site,same-origin,0
+35,2,3,sec-fetch-user,?1,0
+36,2,3,upgrade-insecure-requests,1,0
+37,2,3,user-agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75",0

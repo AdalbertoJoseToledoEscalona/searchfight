@@ -1,0 +1,9 @@
+C:\workspace\searchfight\searchfight\searchfight.Domain\bin\Debug\netstandard2.1\searchfight.Domain.deps.json
+C:\workspace\searchfight\searchfight\searchfight.Domain\bin\Debug\netstandard2.1\searchfight.Domain.dll
+C:\workspace\searchfight\searchfight\searchfight.Domain\bin\Debug\netstandard2.1\searchfight.Domain.pdb
+C:\workspace\searchfight\searchfight\searchfight.Domain\obj\Debug\netstandard2.1\searchfight.Domain.csprojAssemblyReference.cache
+C:\workspace\searchfight\searchfight\searchfight.Domain\obj\Debug\netstandard2.1\searchfight.Domain.AssemblyInfoInputs.cache
+C:\workspace\searchfight\searchfight\searchfight.Domain\obj\Debug\netstandard2.1\searchfight.Domain.AssemblyInfo.cs
+C:\workspace\searchfight\searchfight\searchfight.Domain\obj\Debug\netstandard2.1\searchfight.Domain.csproj.CoreCompileInputs.cache
+C:\workspace\searchfight\searchfight\searchfight.Domain\obj\Debug\netstandard2.1\searchfight.Domain.dll
+C:\workspace\searchfight\searchfight\searchfight.Domain\obj\Debug\netstandard2.1\searchfight.Domain.pdb
